@@ -27,7 +27,7 @@ public class MatrixAddition {
     public static int[][] matrixAdditon(int[][] arr, int[][]arr1){
         int[][] sum = new int[arr.length][arr[0].length];
         for(int i = 0; i< arr.length; i++){
-            for(int j = 0; j<arr.length; j++){
+            for(int j = 0; j<arr[i].length; j++){
                 sum[i][j] = arr[i][j] + arr1[i][j];
 
             }
