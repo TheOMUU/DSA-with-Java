@@ -25,7 +25,7 @@ public class MatrixTranspose {
             }
         }
         //returning 2D transpose array to the Method
-    return transpose;
+        return transpose;
 
     }
     //Displaying 2D Array
