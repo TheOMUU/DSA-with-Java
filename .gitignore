@@ -1,0 +1,13 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compiled Java files
+out/
+target/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db.git-corrupted-backup/
+.git-corrupted-backup/
