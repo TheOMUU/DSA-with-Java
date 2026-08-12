@@ -9,10 +9,10 @@ public class SecondSmallestElement {
         int min = arr[0];
         int secondMin = Integer.MAX_VALUE;
         for(int i = 0; i < arr.length; i++){
-            if(min >arr[i]){
+            if(arr[i]<min){
                 secondMin = min;
                 min = arr[i];
-            } else if (arr[i] < min && arr[i] != min) {
+            } else if (arr[i] > min && arr[i] != min) {
                 secondMin = arr[i];
             }
         }
